@@ -28,7 +28,7 @@ function HomepageHeader() {
           <Link className="button button--secondary button--lg" to="/portfolio">
             View Portfolio
           </Link>
-          <a className="button button--secondary button--lg" href="mailto:your.email@example.com">
+          <a className="button button--secondary button--lg" href="https://www.linkedin.com/in/pratiksha-jain-735340194/" target="_blank" rel="noopener noreferrer">
             Contact Me
           </a>
         </div>
@@ -39,12 +39,12 @@ function HomepageHeader() {
             <span>Years experience</span>
           </div>
           <div className={styles.statItem}>
-            <strong>AI / Backend</strong>
-            <span>Platforms built</span>
+            <strong>Backend</strong>
+            <span>Systems built</span>
           </div>
           <div className={styles.statItem}>
             <strong>Reliability</strong>
-            <span>Performance focus</span>
+            <span>Quality &Performance focus</span>
           </div>
         </div>
       </div>

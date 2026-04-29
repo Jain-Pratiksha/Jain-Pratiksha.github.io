@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
+  title: 'Pratiksha Jain',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
@@ -98,80 +98,90 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'Pratiksha Jain',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
-        },
+        title: 'Home',
+        // logo: {
+        //   alt: 'My Site Logo',
+        //   src: 'img/logo.svg',
+        // },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'tutorialSidebar',
+          //   position: 'left',
+          //   label: 'Tutorial',
+          // },
+          // {to: '/blog', label: 'Blog', position: 'left'},
+          // {
+          //   href: 'https://github.com/facebook/docusaurus',
+          //   label: 'GitHub',
+          //   position: 'right',
+          // },
           {to: '/portfolio', label: 'Portfolio', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
             position: 'right',
           },
+          {
+            label: 'LinkedIn',
+            href: 'https://www.linkedin.com/in/pratiksha-jain-735340194/',
+            position: 'right',
+          },
+          {
+            label: 'YouTube',
+            href: 'https://www.youtube.com/@PraViTechForge-PratikshaJain/',
+            position: 'right',
+          },
         ],
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'Portfolio',
-                to: '/portfolio',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        // links: [
+        //   // {
+        //   //   title: 'Docs',
+        //   //   items: [
+        //   //     {
+        //   //       label: 'Tutorial',
+        //   //       to: '/docs/intro',
+        //   //     },
+        //   //   ],
+        //   // },
+        //   {
+        //     // title: 'Community',
+        //     // items: [
+        //     //   {
+        //     //     label: 'LinkedIn',
+        //     //     href: 'https://www.linkedin.com/in/pratiksha-jain-735340194/',
+        //     //   },
+        //     //   {
+        //     //     label: 'YouTube',
+        //     //     href: 'https://www.youtube.com/@PraViTechForge-PratikshaJain/',
+        //     //   },
+        //     //   {
+        //     //     label: 'Github',
+        //     //     href: 'github.com/Jain-Pratiksha',
+        //     //   },
+        //     // ],
+        //   },
+        //   {
+        //     // title: 'More',
+        //     // items: [
+        //     //   // {
+        //     //   //   label: 'Blog',
+        //     //   //   to: '/blog',
+        //     //   // },
+        //     //   {
+        //     //     label: 'Portfolio',
+        //     //     to: '/portfolio',
+        //     //   },
+        //     //   // {
+        //     //   //   label: 'GitHub',
+        //     //   //   href: 'https://github.com/facebook/docusaurus',
+        //     //   // },
+        //     // ],
+        //   },
+        // ],
+        copyright: `Copyright © ${new Date().getFullYear()} Pratiksha Jain.`,
       },
       prism: {
         theme: prismThemes.github,

@@ -7,7 +7,6 @@ module.exports = {
     'index',
     'education',
     'work-experience',
-    'projects',
     'achievements',
     'skills',
   ],
