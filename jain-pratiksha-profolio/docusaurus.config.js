@@ -75,6 +75,20 @@ const config = {
     ],
   ],
 
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'portfolio',
+        path: 'portfolio',
+        routeBasePath: 'portfolio',
+        sidebarPath: './portfolio/sidebars.js',
+        editUrl:
+          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+      },
+    ],
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -84,7 +98,7 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'My Site',
+        title: 'Pratiksha Jain',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -97,6 +111,12 @@ const config = {
             label: 'Tutorial',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            href: 'https://github.com/facebook/docusaurus',
+            label: 'GitHub',
+            position: 'right',
+          },
+          {to: '/portfolio', label: 'Portfolio', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
@@ -139,6 +159,10 @@ const config = {
               {
                 label: 'Blog',
                 to: '/blog',
+              },
+              {
+                label: 'Portfolio',
+                to: '/portfolio',
               },
               {
                 label: 'GitHub',

@@ -4,7 +4,7 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
+  padding: 5rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -12,12 +12,56 @@
 
 @media screen and (max-width: 996px) {
   .heroBanner {
-    padding: 2rem;
+    padding: 3rem 1rem;
   }
+}
+
+.heroSubtitle {
+  font-size: 1.4rem;
+  max-width: 760px;
+  margin: 1.4rem auto 0;
+  color: #ffffff;
+}
+
+.heroSummary {
+  margin: 1.8rem auto 2.4rem;
+  max-width: 720px;
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.8;
 }
 
 .buttons {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2.4rem;
+}
+
+.statItem {
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 16px;
+  padding: 1rem 1.25rem;
+  min-width: 160px;
+}
+
+.statItem strong {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 0.35rem;
+}
+
+.statItem span {
+  display: block;
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.75);
 }
