@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkjain_pratiksha_profolio=self.webpackChunkjain_pratiksha_profolio||[]).push([["3220"],{1912(a){a.exports=JSON.parse('{"blogBasePath":"/blog","blogTitle":"Blog","authorsListPath":"/blog/authors"}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkjain_pratiksha_profolio=self.webpackChunkjain_pratiksha_profolio||[]).push([["3056"],{8552(a){a.exports=JSON.parse('{"name":"docusaurus-plugin-content-pages","id":"default"}')}}]);
